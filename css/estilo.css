@@ -1,0 +1,182 @@
+body {
+    font-family: auto; /* Fonte */
+    font-size: 20px; /* Tamanho da fonte */
+    line-height: 1.6;
+    background-image: url('https://images2.alphacoders.com/681/681583.gif'); /* Plano de fundo, adicionar arquivo .gif */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(3, 3, 3); 
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* título */
+h1 {
+    font-family: 'Press Start 2P', system-ui; /* Fonte para o título */
+    text-align: center;
+    font-size: 4em;
+    margin-bottom: 30px;
+    color: white;
+    margin-top: -11px;
+}
+
+.titulo-adicionar {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 3.5em;
+    color: #fcfcfc;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
+}
+
+
+.tituloadd {
+    font-family: 'Press Start 2P', sans-serif; !important;
+    font-size: 3.5em;
+    color: #dbdbdb;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
+}
+
+
+
+/*subtítulo */
+.subtitulo {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 1.2em; /* px ou em*/
+    color: white;
+    text-align: center;
+    margin-top: -40px; /*direcionar o "List" para de baixo do "Retro" */
+    margin-left: 750px;
+    margin-bottom: 10px;
+}
+
+/*tabela */
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    color: rgb(0, 19, 59);
+    font-family: 'Titillium Web', sans-serif; /* Fonte da tabela, para adiconar estilo retro */
+    border: none;
+    font-size: 21px;
+    
+}
+
+th, td {
+    padding: 7px 9px;
+    text-align: left;
+    font-size: 1em;
+    border: none;
+    background-color: transparent;
+}
+
+/* para o cabeçalho */
+th {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+/* Estilo das ações Editar/Deletar */
+td a {
+    display: inline-block;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif; 
+    font-size: 0.8em;
+    margin: 5px;
+    transition: background-color 0.3s;
+    border-radius: 6px;
+}
+td a:hover {
+    background-color: #030303; /* Cor de fundo quando passar o mouse */
+    color: #fff; /* Cor do texto ao passar o mouse */
+}
+
+
+/* Botão adicionar */
+.botao-quadrado {
+    padding: 10px 20px;
+    background-color: #1ed7f8;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 28px;
+    font-family: 'VT323', monospace;
+    transition: background-color 0.3s;
+    font-weight: normal;
+    opacity: 0,5;
+
+}
+
+.botao-quadrado:hover {
+    background-color: #28fab4;
+}
+    
+/* botão Voltar */
+.botao-voltar {
+    padding: 5px 5px;
+    background-color: #f70909; /* Reutilizar cód para outros botões */
+    color: rgb(255, 255, 255); 
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px; 
+    font-family: 'VT323', monospace;
+    transition: background-color 0.3s;
+    font-weight: normal;
+    
+}
+
+.botao-voltar:hover {
+    background-color: #570202; 
+}
+
+.botao-adicionar {
+    padding: 5px 5px;
+    background-color: #03bcf5; 
+    color: rgb(255, 255, 255); 
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px; 
+    font-family: 'VT323', monospace;
+    transition: background-color 0.3s;
+    font-weight: normal;
+    margin-left: 82px; /* mover o botão para centralizar na tela */
+}
+
+.botao-adicionar:hover {
+    background-color: #006a72; 
+}
+.botao-jogo {
+    padding: 5px 5px;
+    background-color: #03bcf5; 
+    color: rgb(255, 255, 255); 
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px; 
+    font-family: 'VT323', monospace;
+    transition: background-color 0.3s;
+    font-weight: normal;
+    margin-left: 96px;
+}
+
+
+.botao-jogo:hover {
+    background-color: #006983; 
+}
